@@ -1,0 +1,28 @@
+body{
+    margin: 0%;
+}
+#second-content{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#content-box{
+    display: flex;
+    margin:auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 1200px;
+}
+#btn:hover{
+    background-color: rgb(136, 150, 46);
+    cursor: pointer;
+}
+
+.content-item{
+    background-color: rgb(255, 255, 255);
+    /*flex-grow: 1;
+    flex-basis: 50%;*/
+    margin: 1%;
+    height: 100px;
+    padding-top: auto;
+}
